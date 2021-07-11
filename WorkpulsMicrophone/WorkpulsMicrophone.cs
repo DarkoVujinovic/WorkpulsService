@@ -12,6 +12,7 @@ namespace WorkpulsMicrophone
         {
             bool isAvailable = false;
 
+            // check CurrentUser registry key
             using (var key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\microphone\NonPackaged"))
             {
                 if (key != null)
@@ -60,6 +61,7 @@ namespace WorkpulsMicrophone
                 }                
             }
 
+            // check LocalMachine registry key
             using (var key = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\microphone\NonPackaged"))
             {
                 if (key != null)
