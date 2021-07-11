@@ -1,4 +1,11 @@
-*This is step to step guide for the installation of WorkpulsServiceDemo windows service application*
+*Quick description of WorkpulsServiceDemo Windows Service*
+Built in .Net Framework 4.0
+
+Service has been intended to monitor what application is currently in focus for all logged-in users on the PC and log this info in the C:\log-app.txt file. 
+It also monitor camera and microphone usage and log all these informations in C:\log-camera.txt file.
+Every time C:\log-app.txt is open, service log this information in C:\log-open-log-file.txt file with the user who opened the file and the time when it was open.
+
+*This is step to step guide for the installation of WorkpulsServiceDemo Windows Service application*
 
 Prerequisites: Microsoft VisualStudio 2019
 
