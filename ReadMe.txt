@@ -17,4 +17,4 @@ Prerequisites: Microsoft VisualStudio 2019
 6. Also in the WorkpulsServiceDemo\bin\Debug\ build directory find 'Topshelf.dll' (version 3.3.154) and also paste to the 'C:\Windows' directory
 7. Run installService.bat file as Administrator
 8. Go to the Services, find WorkpulsServiceDemo and click Start
-8. Enjoy :)
+9. Enjoy :)
